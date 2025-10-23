@@ -20,7 +20,7 @@ Compact repo summary and quick-run instructions for the I-GCN accelerator projec
 # run the small simulation that produces CSV timelines and high-level metrics
 ./run_small.sh
 # or directly:
-python simulation/main_sim.py --output_dir simulation_results
+python simulation/main_sim.py
 
 ### Prerequisites
 - Python 3.8+ with packages:
