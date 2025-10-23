@@ -1,4 +1,5 @@
-# I-GCN Accelerator — Simulation + RTL Prototype (c_max Bottleneck Mitigation)
+# I-GCN Accelerator — Simulation + RTL Prototype 
+# (c_max Bottleneck Mitigation)
 
 **Short description — what this project achieves**
 
