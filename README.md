@@ -17,10 +17,11 @@ In plain terms: the original I‑GCN approach rigidly splits communities larger 
 ├── simulation/
 │   ├── main_sim.py                 # Event-driven simulator (Baseline vs Enhanced)
 │   ├── gantt.py                    # Gantt chart generator for PE & DRAM timelines
-│   └── run_small.sh / run_sweep.py # Example scripts
 ├── simulation_results/             # Example outputs (CSV + PNG images)
 ├── requirements.txt                # Python dependencies
 └── README.md                       # <-- this file
+└── run_small.sh
+└── run_sweep.py
 ```
 
 ---
@@ -223,10 +224,7 @@ vvp igcn_sim.vvp
 
 ## Contact / Author
 
-Project owner: *Your Name* — add your email / GitHub link here.
+Project owner: *Kush Kapoor* — as part of the research group of Prof. 
 
-If you want, I can also produce a condensed `README-short.md` for a project landing page (one page, 5 bullets + 2 images) or a formatted `doc/evaluation.md` that expands the evaluation tables for each sweep configuration.
 
 ---
-
-*License:* add a `LICENSE` file (suggested: MIT) if you intend to open‑source the repo.
