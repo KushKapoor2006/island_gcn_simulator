@@ -1,0 +1,5 @@
+config_name,pe_sram_bytes,feature_dim,total_time_ns,total_dram_traffic_bytes,fragmentation_penalty_time_ns,fragmentation_penalty_bytes,islands_created,cut_edges,pe_utilization_percent
+Baseline I-GCN (Rigid c_max),8192,128,26164.0,54784,11550.0,28160,6,55,39.67092187738878
+Enhanced I-GCN (Adaptive),8192,128,15972.0,26624,0.0,0,4,43,91.61344853493614
+Baseline I-GCN (Rigid c_max),8192,128,26164.0,54784,11550.0,28160,6,55,39.67092187738878
+Enhanced I-GCN (Adaptive),8192,128,15972.0,26624,0.0,0,4,43,91.61344853493614

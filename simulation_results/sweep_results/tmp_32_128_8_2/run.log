@@ -1,0 +1,23 @@
+Generated graph with 268 nodes.
+Ground truth community sizes: [32, 32, 54, 54, 96]
+Hardware c_max (nodes per PE): 64
+
+--- Running Simulation: Baseline I-GCN (Rigid c_max) ---
+Baseline Locator: Splitting large community of size 268 into chunks of 64.
+Locator created 5 islands, resulting in 1071 cut edges.
+Calculating fragmentation penalty for 1071 cut edges...
+Fragmentation added 224910.00 ns and 535.50 KB
+Simulation finished. Total time: 343254.00 ns
+Total DRAM traffic: 669.50 KB
+PE Utilization: 13.39 %
+
+--- Running Simulation: Enhanced I-GCN (Adaptive) ---
+Enhanced Locator: Community 268 too large, splitting.
+Locator created 3 islands, resulting in 629 cut edges.
+Simulation finished. Total time: 212324.00 ns
+Total DRAM traffic: 134.00 KB
+PE Utilization: 41.70 %
+
+
+Plots saved to: /home/kk/Desktop/Research/work/I-GCN/sweep_results/tmp_32_128_8_2/simulation_results.png
+Results appended to: /home/kk/Desktop/Research/work/I-GCN/sweep_results/tmp_32_128_8_2/simulation_results.csv
