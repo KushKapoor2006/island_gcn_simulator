@@ -20,8 +20,9 @@ In plain terms: the original I‑GCN approach rigidly splits communities larger 
 ├── simulation_results/             # Example outputs (CSV + PNG images)
 ├── requirements.txt                # Python dependencies
 └── README.md                       # <-- this file
-└── run_small.sh
-└── run_sweep.py
+└── EVALUATION.md                   # Parameters and metrics
+└── run_small.sh                    # Helper Script - Executable (Run with chmod +x)
+└── run_sweep.py                    # Aggregated speedup plot (mean ± std)
 ```
 
 ---
