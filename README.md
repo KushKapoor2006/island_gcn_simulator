@@ -1,6 +1,12 @@
 # I-GCN Accelerator — Simulation + RTL Prototype 
 # (c_max Bottleneck Mitigation)
 
+## TL;DR
+### island_gcn_simulator (iGCN) — Island Allocation Strategies (Verilog)
+- **What:** Accelerator verification harness and controller for islanded GCN execution strategies; compares baseline vs enhanced allocation policies.
+- **Key result (From RTL TB trace):** Baseline run cycles = **403**; Enhanced run cycles = **356** → **1.13× speedup** for the enhanced island allocation policy in the TB scenario.  
+- **Notes:** The TB trace shows per-PE island allocations, penalties and latched allocations; use the testbench (`tb_igcn_accelerator.sv`) for trace-driven experiments and strategy validation.
+
 **Short description — what this project achieves**
 
 This repository implements, evaluates, and prototypes a practical mitigation to a real architectural bottleneck found in the I‑GCN accelerator design: the **static granularity mismatch** (commonly referred to as `c_max`) between fixed on‑chip scratchpad capacity and natural community sizes in graphs. The core contribution is a hardware-friendly mitigation — **adaptive PE merging (pairwise)** — together with a quantitative simulation study and a small SystemVerilog prototype demonstrating the idea at cycle granularity.
