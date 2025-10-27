@@ -161,5 +161,3 @@ To reproduce the evaluations and figures shown in the `simulation_results` folde
 * `hardware/igcn_accelerator.sv` & `hardware/tb_igcn_accelerator.sv` — RTL model and testbench.
 
 ---
-
-If you want, I can also produce a CSV table summarizing the runs used to create the sweep figure (per config: SRAM size, PE count, feature_dim, baseline time, enhanced time, speedup, DRAM bytes ratio). That CSV is useful to include in the paper appendix or in the `simulation_results/` folder for quick reproducibility.
