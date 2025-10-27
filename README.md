@@ -231,9 +231,14 @@ vvp igcn_sim.vvp
 
 ---
 
-## Contact / Author
+## Authorship
 
-Project owner: *Kush Kapoor* — as part of the research group of Prof. 
+**Project:** Reconfigurable Near-Memory Neural Primitives
+
+**Author:** Kush Kapoor
+
+Artifacts as part of research assistance under **Prof Dr. Ajai Kumar Gautam** at **Software Testing & Research Lab (DTU)**
+ 
 
 
 ---
