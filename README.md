@@ -237,8 +237,4 @@ vvp igcn_sim.vvp
 
 **Author:** Kush Kapoor
 
-Artifacts as part of research assistance under **Prof Dr. Ajai Kumar Gautam** at **Software Research Lab (DTU)**
- 
-
-
 ---
