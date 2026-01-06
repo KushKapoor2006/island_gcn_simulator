@@ -233,7 +233,7 @@ vvp igcn_sim.vvp
 
 ## Authorship
 
-**Project:** Reconfigurable Near-Memory Neural Primitives
+**Project:** island_gcn_simulator (iGCN)
 
 **Author:** Kush Kapoor
 
